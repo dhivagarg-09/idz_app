@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Your App Name</string>
+    <string name="welcome_user">Welcome, User!</string>
+    <string name="please_enter_details">Please enter your details:</string>
+    <string name="name">Name</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="birth_date">Date of Birth</string>
+    <string name="mm_dd_yyyy">MM/DD/YYYY</string>
+    <string name="email_id">Email ID</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="submit">Submit</string>
+</resources>

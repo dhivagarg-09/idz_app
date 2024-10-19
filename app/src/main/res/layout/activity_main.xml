@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_user"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewWatermark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/please_enter_details"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:layout_gravity="start"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:hint="@string/enter_your_name"
+        android:layout_marginTop="8dp"
+        android:padding="16dp"
+        android:inputType="text"
+        android:autofillHints="name"
+        android:maxWidth="300dp"/>
+
+    <TextView
+        android:id="@+id/textViewDOBLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/birth_date"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextDOB"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:hint="@string/mm_dd_yyyy"
+        android:layout_marginTop="8dp"
+        android:padding="16dp"
+        android:inputType="text"
+        android:autofillHints="birthdate"
+        android:maxWidth="300dp"/>
+
+    <TextView
+        android:id="@+id/textViewEmailLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email_id"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:hint="@string/enter_your_email"
+        android:layout_marginTop="8dp"
+        android:padding="16dp"
+        android:inputType="textEmailAddress"
+        android:autofillHints="emailAddress"
+        android:maxWidth="300dp"/>
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:layout_gravity="center"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="32dp"
+        android:padding="16dp"/>
+</LinearLayout>
